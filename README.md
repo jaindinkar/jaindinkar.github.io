@@ -1,2 +1,2 @@
-# whoisdinkar.github.io
+# jaindinkar.github.io
 A personal portfolio website hosted on GitHub.
