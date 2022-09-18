@@ -1,0 +1,27 @@
+#hero { 
+    height: 90vh; 
+    width: 100vw; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    text-align: center; 
+}
+
+.big-p {
+    font-size: 25px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#footer { 
+    height: 10vh; 
+    width: 100vw; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    text-align: center; 
+}
