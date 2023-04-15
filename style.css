@@ -1,27 +1,63 @@
-#hero { 
-    height: 90vh; 
-    width: 100vw; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    flex-direction: column; 
-    text-align: center; 
+/* Start your CSS here */
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("./images/bg.gif") !important;
+  background-repeat: repeat !important;
+  background-color: #0a0a0a !important;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#app-container {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+#hero {
+  height: 95%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .big-p {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-#footer { 
-    height: 10vh; 
-    width: 100vw; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    flex-direction: column; 
-    text-align: center; 
+#footer {
+  height: 5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#name-text-gradient {
+  background: #03FFF7;
+
+  background: -webkit-linear-gradient(to top, #03FFF7 20%, #FFFF52 50%, #FFADEF 80%);
+  background: -moz-linear-gradient(to top, #03FFF7 20%, #FFFF52 50%, #FFADEF 80%);
+  background: linear-gradient(to top, #03FFF7 20%, #FFFF52 50%, #FFADEF 80%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#heart {
+  color: crimson;
 }
